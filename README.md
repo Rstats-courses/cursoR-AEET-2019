@@ -1,38 +1,58 @@
-# Optimising R for data analysis in ecology
+# Optimizando el uso de R para el análisis de datos en ecología (4º ed.)
 
 https://github.com/Rstats-courses/cursoR-AEET-2019
 
-Universitat de Girona, Girona, 25-29 March 2019.
+Curso organizado por la Asociación Española de Ecología Terrestre ([AEET](http://www.aeet.org)), en colaboración con la [Universitat de Girona](https://www.udg.edu/es/). 
 
-Taught by [Ignasi Bartomeus](https://bartomeuslab.com/) & [Francisco Rodríguez-Sánchez](http://bit.ly/frod_san).
+Impartido por [Ignasi Bartomeus](https://bartomeuslab.com/) y [Francisco Rodriguez-Sanchez](http://bit.ly/frod_san).
+
+Girona, 25-29 Marzo 2019.
 
 
-## Summary
+
+## Resumen
  
-R language and statistical software has become dominant to analyse data in ecology and many other scientific disciplines. This is a medium-advanced level course where we will work along different facets of programming in R language as well as relatively complex but very common statistical analyses in ecology (generalised models, mixed models, and multivariate analyses) and data visualisation.
+El lenguaje y programa estadístico R se ha hecho enormemente popular en los últimos años para el análisis de datos en ecología y otras muchas disciplinas científicas. En este curso, de nivel medio-avanzado, profundizaremos tanto en aspectos de programación en R como lenguaje informático, como en algunos de los tipos de análisis estadístico más frecuentes en ecología (modelos mixtos, modelos generalizados, análisis multivariante) y visualización de datos.
+
+El curso, aunque contiene cierta base teórica, es fundamentalmente práctico. El método docente se basa en aprender haciendo ("learn by doing"): aprenderemos programación avanzada de R (e.g. funciones, vectorización, simulaciones, computación reproducible) mientras las aplicamos al análisis y visualización de datos. Se repasarán diferentes técnicas estadísticas con un componente más práctico que teórico, pero priorizando su uso adecuado.
  
-The course will be eminently practical where students will ‘learn by doing’. We will learn advanced R programming (e.g. writing functions, vectorisation, simulation, reproducible computing) while analysing and visualising data. We will work through the different statistical analyses focusing on understanding and promoting good practice.
+El curso es ideal para alumnos que ya utilizan R para analizar datos pero sienten que no están aprovechando a fondo todo el potencial de R ni de sus datos.
+
+
+
+## Lugar
+
+Aula informática 1
+
+Edifici Ciències
+
+Faculty of Sciences (Facultat de Ciències)
+
+University of Girona
+
+Campus de Montilivi 
+
+M. Aurèlia Capmany 69
+
+17003 Girona, Spain
+
+https://www.udg.edu/ca/coneix/La-UdG/Campus-universitari/Montilivi
+
  
-The course will be most useful to people who already use R for their data analyses but want to advance their skills to harness the full potential of R and their ecological data.
-
-The course is aimed at postgraduate (M.Sc. or Ph.D.) students, postdocs, lecturers and researchers with some basic statistical knowledge and already familiar with R who want to get deeper into using R for data analysis in ecology. The student should be capable to interpret simple linear and generalised models (e.g. logistic regression), and be familiar with R (import data, data manipulation, basic data visualisation, fit simple models like lm or glm).
+El aula está equipada con equipos informáticos y wi-fi. También hay disponibilidad de enchufes para conectarse con portátiles.
 
 
 
-## Place
+## Programa (tentativo)
 
-TBA
+Lunes 25 - Viernes 29 Marzo
 
-## Course schedule (tentative)
+Mañana: 9:00 - 13:00
 
-Monday 17 - Friday 21 September
-
-9:00 - 13:00 & 15:00 - 17:30 (Monday to Thursday)
-
-9:00 - 13:00 (Friday)
+Tarde: 15:00 - 17:30 
 
 
-|   |           Morning                 |     Afternoon       |
+|   |            Mañana                 |        Tarde        |
 |:-:|:---------------------------------:|:-------------------:|
 | L |         R programming             |    Visualisation    |
 | M |        GLM & Mixed models         |    Mixed models     |
@@ -41,29 +61,23 @@ Monday 17 - Friday 21 September
 | V |           R as GIS                |      Students work  |
 
 
+## Preparativos
+
+Cada alumno dispondrá de un ordenador. Los alumnos que traigan su propio portátil (recomendado) deberán traer instalado:
+
+- La **última versión** de R (> 3.5.0). 
+
+- La **última versión** de [Rstudio](https://www.rstudio.com/products/rstudio/download/) 
+
+- Los paquetes incluidos [aquí](https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2019/master/pkgs2install.R), actualizados a su última versión. Probablemente la forma más fácil es ejecutar `source("https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2019/master/pkgs2install.R")` desde vuestro R para instalar la última versión de todos los paquetes.
+
+- Git: instrucciones [aquí](http://happygitwithr.com/install-git.html)
+
+- Darse de alta en GitHub: https://github.com/join
 
 
-## Preparations
 
-All students must bring their own laptop with the following software installed:
-
-- **Last R version** (3.5.1)
-
-- **Last version** of [Rstudio](https://www.rstudio.com/products/rstudio/download/) 
-
-- Updated R packages mentioned [here](https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2018/master/pkgs2install.R). Probably it is easiest to just run `source("https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2018/master/pkgs2install.R")` from your local R to update/install all packages.
-
-- Git: follow directions [here](http://happygitwithr.com/install-git.html)
-
-- Sign up on GitHub: https://github.com/join
-
-
-## Course materials 
-
-All course materials (slides, scripts, datasets, etc) will be available at https://github.com/Rstats-courses/cursoR-AEET-2019.
-
-
-## Recommended bibliography
+## Bibliografía recomendada
 
 - [Advanced R programming](http://adv-r.had.co.nz/)
 
