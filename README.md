@@ -24,17 +24,9 @@ El curso es ideal para alumnos que ya utilizan R para analizar datos pero siente
 
 Aula informática 1
 
-Edifici Ciències
+Facultat de Ciències, Campus de Montilivi, Universitat de Girona
 
-Faculty of Sciences (Facultat de Ciències)
-
-University of Girona
-
-Campus de Montilivi 
-
-M. Aurèlia Capmany 69
-
-17003 Girona, Spain
+C/ M. Aurèlia Capmany 69, 17003 Girona
 
 https://www.udg.edu/ca/coneix/La-UdG/Campus-universitari/Montilivi
 
@@ -47,7 +39,7 @@ El aula está equipada con equipos informáticos y wi-fi. También hay disponibi
 
 Lunes 25 - Viernes 29 Marzo
 
-Mañana: 9:00 - 13:00
+Mañana: 9:00 - 13:30
 
 Tarde: 15:00 - 17:30 
 
@@ -65,7 +57,7 @@ Tarde: 15:00 - 17:30
 
 Cada alumno dispondrá de un ordenador. Los alumnos que traigan su propio portátil (recomendado) deberán traer instalado:
 
-- La **última versión** de R (> 3.5.0). 
+- La **última versión** de R (3.5.3, o al menos > 3.5.0). 
 
 - La **última versión** de [Rstudio](https://www.rstudio.com/products/rstudio/download/) 
 
