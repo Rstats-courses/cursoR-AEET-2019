@@ -9,7 +9,6 @@ Impartido por [Ignasi Bartomeus](https://bartomeuslab.com/) y [Francisco Rodrigu
 Girona, 25-29 Marzo 2019.
 
 
-
 ## Resumen
  
 El lenguaje y programa estadístico R se ha hecho enormemente popular en los últimos años para el análisis de datos en ecología y otras muchas disciplinas científicas. En este curso, de nivel medio-avanzado, profundizaremos tanto en aspectos de programación en R como lenguaje informático, como en algunos de los tipos de análisis estadístico más frecuentes en ecología (modelos mixtos, modelos generalizados, análisis multivariante) y visualización de datos.
@@ -44,13 +43,13 @@ Mañana: 9:00 - 13:30
 Tarde: 15:00 - 17:30 
 
 
-|   |            Mañana                 |        Tarde        |
-|:-:|:---------------------------------:|:-------------------:|
-| L |         R programming             |    Visualisation    |
-| M |        GLM & Mixed models         |    Mixed models     |
-| X |       Multivariate analysis       |    R programming    |
-| J |           Rmarkdown - Git         |      Simulation     |
-| V |           R as GIS                |      Students work  |
+|   |            Mañana                 |        Tarde             |
+|:-:|:---------------------------------:|:------------------------:|
+| L |         R programming             |    Visualisation         |
+| M |        GLM & Mixed models         |    Mixed models          |
+| X |       Multivariate analysis       |    Null Models           |
+| J |           Rmarkdown - Git         | R programming (dplyr)    |
+| V |           R as GIS                |      Students work       |
 
 
 ## Preparativos
