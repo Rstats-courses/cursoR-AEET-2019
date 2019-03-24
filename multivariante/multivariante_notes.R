@@ -36,13 +36,18 @@ predict(pca, newdata=(tail(ir, 2)))
 
 #NMDS and PERMANOVA----
 #The data
-Herbivores <- read.csv(file = "multivariante/data/Herbivore_specialisation.csv", header = TRUE)
+Herb <- read.csv(file = "multivariante/data/Herbivore_specialisation.csv", header = TRUE)
+head(Herb)
+
+#Get the community matrix
+library(reshape2)
+Herbivores <- dcast(data = Herb, formula = Habitat + DayNight + Replicate + Mass ~ species,
+                    fun.aggregate = sum, value.var = "abundance")
 head(Herbivores)
 
 #simplify objects to use
 Habitat <- Herbivores$Habitat
 DayNight <- Herbivores$DayNight
-#select the community
 Herb_community <- Herbivores[,5:11]
 
 #The basic is the distance measure you use:
