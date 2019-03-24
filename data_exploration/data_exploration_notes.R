@@ -30,17 +30,19 @@ scatter.smooth(dat$extinction_risck ~ dat$body_size)
 #load 2 datasets, check them, make summary statistics of one and merge
 
 #sites data:
-sites <- read.csv("data_exploration/data/bumblebee_sites.csv", h=T)
+sites <- read.csv("data_exploration/data/bumblebee_sites.csv", h=T , dec = ",", sep = ";")
 str(sites)
 head(sites)
+boxplot(sites$Fower_abundance ~ sites$Site)
 #we need unique sites
 unique(sites$Site)
 #reshape package
 #install.packages("reshape2")
 library(reshape2)
-sites2 <- dcast(data = sites, formula = Site + Corridor ~ . , fun.aggregate = mean, value.var = "landscape")
+sites2 <- dcast(data = sites, formula = Site ~ Corridor, fun.aggregate = mean,
+                value.var = "Fower_abundance")
 sites2
-colnames(sites2)[3] <- "landscape"
+colnames(sites2)[2] <- "Fower_abundance_yes"
 sites2
 
 #occurrence data:
@@ -67,7 +69,7 @@ position <- regexpr(pattern = "_", occ2$Flower_species)
 occ2$plant_genus <- substr(occ2$Flower_species, 1, position-1)
 
 #joins, reshape, merge
-dat <- merge(occ2, sites2, by = "Site", all = TRUE)
+dat <- merge(occ2, sites2[,1:2], by = "Site", all = TRUE)
 str(occ2)
 str(sites2)
 str(dat)
