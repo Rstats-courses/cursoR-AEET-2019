@@ -30,7 +30,8 @@ lines(c(corr, corr), c(0,200), col = "red")
 
 #test p-value
 (p <- pnorm(corr, mean = mean(cor_dis), sd = sd(cor_dis)))
-
+#Or using the real distribution directly
+length(cor_dis[which(cor_dis < corr)])/1000
 
 #Another example----
 #We observe a pattern: How uneven are abundance distributions?
@@ -67,6 +68,9 @@ for(i in 1:100){
 hist(out)
 lines(c(eve, eve), c(0,20), col = "red")
 (p <- pnorm(eve, mean = mean(out, na.rm = TRUE), sd = sd(out, na.rm = TRUE)))
+#Or using the real distribution directly
+length(out[which(out < eve)])/1000
+
 
 #null model 2.
 #We want to test now if body size is driving the eveness patterns.
@@ -92,6 +96,8 @@ lines(c(eve, eve), c(0,400), col = "red")
 #we remove NA's as in function J, log(richness) is NA when a species abundance is 0.
 #basically we ignore those cases, as we are only interested in communities with all species
 #having positive abundances.
+#Or using the real distribution directly
+length(out_bs[which(out_bs < eve)])/1000
 
 #Other implmented null models in R
 library(vegan)
