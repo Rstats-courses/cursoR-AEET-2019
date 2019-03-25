@@ -4,7 +4,7 @@ https://github.com/Rstats-courses/cursoR-AEET-2019
 
 Curso organizado por la Asociación Española de Ecología Terrestre ([AEET](http://www.aeet.org)), en colaboración con la [Universitat de Girona](https://www.udg.edu/es/). 
 
-Impartido por [Ignasi Bartomeus](https://bartomeuslab.com/) y [Francisco Rodriguez-Sanchez](http://bit.ly/frod_san).
+Impartido por [Ignasi Bartomeus](https://bartomeuslab.com/) y [Francisco Rodríguez-Sánchez](http://bit.ly/frod_san).
 
 Girona, 25-29 Marzo 2019.
 
