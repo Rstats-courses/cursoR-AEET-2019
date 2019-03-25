@@ -1,7 +1,7 @@
 R Intro
 ========================================================
 author: I. Bartomeus
-date: Sept 2018
+date: March 2019
 autosize: true
 
 Next 5 days of your life
@@ -10,8 +10,8 @@ Next 5 days of your life
 * Intro (45')
 * Programing in R (Nacho) + Data viz (Paco)
 * GLM & Mix models (Paco)
-* Multivariant (Nacho) + dplyr (Nacho)
-* RMarkdown, git y GitHub (Paco) + Null Models (Nacho)
+* Multivariant (Nacho) + Null Models (Nacho)
+* RMarkdown, git y GitHub (Paco) + dplyr (Victor)
 * GIS (Paco)
 
 Feedback: <a href="nacho.bartomeus@gmail.com">Email: nacho.bartomeus@gmail.com</a>
