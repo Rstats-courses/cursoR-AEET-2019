@@ -1,7 +1,7 @@
 multivariate analysis
 ========================================================
 author: I. Bartomeus
-date: March 2018
+date: March 2019
 autosize: true
 
 PCA
@@ -47,4 +47,3 @@ Resources
 
 - Super complete guide on multivariate analysis: https://sites.google.com/site/mb3gustame/
 
--
